@@ -1,0 +1,12 @@
+.live-timer {
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+.live-timer img {
+    margin-right: 0.5rem;
+}

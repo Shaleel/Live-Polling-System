@@ -1,0 +1,39 @@
+.show-polls {
+    right: 0%;
+}
+.close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.poll-card {
+    border: 1px solid grey;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem;
+    line-height: 1rem;
+    width: 100%;
+}
+
+.poll-title {
+    font-weight: bold;
+}
+
+.option-title {
+    font-weight: bold;
+    color: grey;
+}
+.option-progress-wrapper {
+    width: 100%;
+    border: 0.5px solid black;
+    border-radius: 0.5rem;
+}
+.option-progress {
+    height: 0.5rem;
+    width: 100%;
+    background-color: blueviolet;
+    border-radius: 0.5rem;
+}

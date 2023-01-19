@@ -1,0 +1,82 @@
+.poll-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.text-area {
+  padding: 1rem;
+  font-size: 2rem;
+  min-width: 720px;
+  max-width: 90%;
+  font-family: "Arial";
+  border: 2px solid grey;
+  border-radius: 1rem;
+}
+.checkbox {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 0.2rem;
+  border: 2px solid grey;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.checkbox:hover {
+  background: rgb(0, 206, 38);
+}
+.checked {
+  border: none;
+}
+.button-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.option-row {
+  margin-bottom: 1rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.option-input {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+}
+
+.timer {
+  position: absolute;
+  right: 0;
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.timer img {
+  position: absolute;
+  margin-right: 0.5rem;
+  left: -30%;
+}
+
+.increment {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  user-select: none;
+}
+
+.decrement {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  user-select: none;
+}
+
+.timer-operators span {
+  border: 0.5px solid grey;
+  padding: 0.2rem;
+  margin-right: 0.5rem;
+}

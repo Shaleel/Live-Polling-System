@@ -1,0 +1,11 @@
+.student-name-input {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: grey;
+  border: none;
+  background: transparent;
+}
+.student-name-input:focus {
+  outline: none;
+  border-bottom: 2px solid grey;
+}

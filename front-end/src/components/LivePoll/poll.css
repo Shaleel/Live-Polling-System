@@ -1,0 +1,68 @@
+.poll-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5803921568627451);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
+
+.poll-content {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: start;
+    min-width: 75%;
+    position: relative;
+}
+
+.option-row {
+    margin-bottom: 1rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.option-input {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+}
+
+.answer {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgba(71, 186, 0, 0.257);
+    color: green;
+    font-weight: bold;
+}
+
+.answer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgrey;
+    padding: 0.5rem;
+    position: relative;
+}
+.progress {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: rgba(42, 188, 188, 0.264);
+    transition: width 0.3s ease-in;
+}
+.result-val {
+    font-size: 1.5rem;
+}
+.data {
+    font-size: 1rem;
+    margin: 0 1rem;
+}
