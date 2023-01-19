@@ -24,7 +24,6 @@ const PreviousPolls = () => {
                 }
             ).then((res) => res.json());
 
-            console.log(response);
             setlist(response);
         }
 

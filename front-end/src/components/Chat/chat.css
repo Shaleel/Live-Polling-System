@@ -19,7 +19,10 @@
     border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+}
+
+.chat-list > :first-child {
+    margin-top: auto !important;
 }
 .chat-input {
     flex: 0.1;
@@ -29,7 +32,7 @@
 }
 
 .chat-input input {
-    background-color: #f7f7f7;
+    background-color: #242424;
     padding: 1rem;
     font-size: large;
     border-radius: 1rem;
@@ -67,5 +70,8 @@
 @media (prefers-color-scheme: light) {
     .chat-wrapper {
         background-color: #ffffff;
+    }
+    .chat-input input {
+        background-color: #f7f7f7;
     }
 }

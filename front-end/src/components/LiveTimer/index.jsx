@@ -6,8 +6,8 @@ const getTime = (val) => {
     let minutes = Math.floor(+val / (60 * 1000));
     let seconds = Math.floor(+val / 1000) - minutes * 60;
 
-    if (minutes < 10 && minutes > 10) minutes = '0' + minutes;
-    if (seconds < 10 && seconds > 10) seconds = '0' + seconds;
+    if (minutes < 10 && minutes >= 0) minutes = '0' + minutes;
+    if (seconds < 10 && seconds >= 0) seconds = '0' + seconds;
 
     return `${minutes}:${seconds}`;
 };

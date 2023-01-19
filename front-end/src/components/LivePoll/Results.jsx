@@ -70,9 +70,8 @@ const Results = () => {
                                 {key === studentMarkedIndex && '✅'}
                                 <span className="data">
                                     {Math.floor(
-                                        (stats[key] /
-                                            results.responses.length) *
-                                            100
+                                        (stats[key] ||
+                                            0 / results.responses.length) * 100
                                     )}
                                     %
                                 </span>

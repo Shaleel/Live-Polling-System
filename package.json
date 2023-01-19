@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "dev": "nodemon back-end/src/index",
-        "start": "node back-end/src/index"
+        "start": "cd front-end && npm install && npm run build && cd ../ && node back-end/src/index"
     },
     "author": "",
     "license": "ISC",

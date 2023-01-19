@@ -13,7 +13,7 @@
 }
 
 .poll-content {
-    background-color: white;
+    background-color: rgb(37, 40, 37);
     border-radius: 1rem;
     padding: 2rem;
     text-align: start;
@@ -66,3 +66,9 @@
     font-size: 1rem;
     margin: 0 1rem;
 }
+
+/* @media (prefers-color-scheme: light) {
+    .poll-wrapper {
+        background-color: white;
+    }
+} */
